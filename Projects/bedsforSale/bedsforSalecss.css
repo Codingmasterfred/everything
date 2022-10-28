@@ -1,0 +1,120 @@
+* {
+padding:0px;
+margin:0px;
+box-sizing:border-box;
+}
+body {
+background-image:url(https://ae01.alicdn.com/kf/UT8axvxXtNbXXagOFbXv/King-size-1-8m-antique-style-high-quality-bed-A06.jpg);
+background-position:center;
+background-size:cover;
+height:100vh;
+width:100%;
+background-repeat:no-repeat;
+}
+.menu-bar {display:block;
+background-color:white;
+
+}
+.menu-bar ul {position:absolute;
+display:inline-flex;
+list-style:none;
+padding:5px;
+justify-content:center;
+}
+.menu-bar ul li {
+width:100px;
+margin:15px;
+padding:15px;
+}
+.menu-bar ul li a {
+text-decoration-line: underline;
+color:black;
+}
+
+.active, .menu-bar ul li:hover { 
+background: rgb(150,50,0);
+border-radius:3px;
+
+}
+i{
+margin-right:12px;
+display:none;
+}
+.sub-menu-1 {
+display:none;
+}
+.menu-bar ul li:hover .sub-menu-1 
+{display:block;
+position:absolute;
+background-color:rgb(150,50,0);
+top:100px;
+left:0%;
+font-family:Sans Serif;
+font-size:16px;
+
+}
+.menu-bar ul li:hover .sub-menu-1 ul
+{display:inline-flex; 
+margin:1px;
+padding:0px;
+}
+
+
+
+em {color:white;}
+
+.menu-bar ul li:hover .sub-menu-1 ul a:hover
+{color:rgb(0,0,0);}
+
+.sub-menu-2 {display:none;}
+
+.menu-bar ul li:hover .sub-menu-2 
+{display:block;
+position:absolute;
+background-color:clear;
+margin-top:15px;
+margin-left:-25px;
+font-family:Sans Serif;
+font-size:20px;
+}
+
+.menu-bar ul li:hover .sub-menu-2 ul{
+display:block;
+margin-left:0px;}
+
+.sub-menu-3 {display:none;}
+
+.menu-bar ul li:hover .sub-menu-3
+{display:block;
+position:absolute;
+background-color:clear;
+
+margin-top:15px;
+margin-left:-25px;
+font-family:Sans Serif;
+font-size:20px;
+}
+
+.menu-bar ul li:hover .sub-menu-3 ul{
+display:block;
+margin-left:0px;
+}  
+
+#phonesize {
+width:170px;}
+
+#emailsize {width:300px;}
+
+
+h1  {
+ z-index:1;
+ color:white;
+ position:absolute;
+ left:40%;
+ top:90%;
+ background-color:rgb(150,50,0);
+ opacity:.8;
+ text-align:center;
+ mix-blend-mode:multiply;
+ font-size:40px;
+ text-decoration-line:none;}

@@ -1,0 +1,245 @@
+
+
+*{
+box-sizing:border-box;
+margin:0px;
+padding:0px;
+
+}
+
+
+
+
+.back-video   {
+  position: absolute;
+  z-index:1;
+
+  object-fit:cover;
+  bottom:0%;
+  margin-top:5%;
+  width:100%;
+ height:100%;
+  
+}
+
+
+
+
+i { margin:10%; color:rgb(255,188,0);}
+
+
+
+
+/* navbar------------------------------------------------------------------------------------------------------------------*/
+
+
+
+
+.navbar {
+background:transparent;
+text-align:center;
+position:absolute;
+z-index:2;
+padding:-20px;
+width:100%;
+
+
+
+}
+
+
+.navbar ul {
+display:inline-flex;
+list-style:none;
+color:rgb(255,188,0);
+justify-content:center;
+
+}
+
+
+
+.navbar ul li {
+background:linear-gradient(rgb(206,129,0), rgb(255,1,2), rgb(0,0,0)80%);
+padding:20px;
+margin:10px;
+width:100px;
+
+}
+
+.active, .navbar ul li:hover
+{
+display:block;
+background-color:black;
+
+}
+
+
+
+
+/* sub-navbar-1------------------------------------------------------------------------------------------------------------*/
+
+
+
+
+
+
+.sub-navbar-1 {
+display:none;
+}
+
+
+.navbar ul li:hover .sub-navbar-1
+{display:block;
+background:transparent;
+position:absolute;
+margin-top:20px;
+margin-left:-40px;
+}
+
+.navbar ul li:hover {cursor:pointer}
+
+.navbar ul li:hover .sub-navbar-1 ul li{
+padding:8px;
+}
+
+
+.navbar ul li:hover .sub-navbar-1 ul
+{display:block;
+margin:10px;
+}
+
+
+
+
+
+/* sub-navbar-1-1----------------------------------------------------------------------------------------------------------*/
+
+
+
+
+
+.sub-navbar-1-1{
+display:none;}
+
+.navbar ul li:hover .sub-navbar-1 ul li:hover .sub-navbar-1-1{
+ display: block;
+background:transparent;
+position:absolute;
+margin-left:80px;
+margin-top:-38px;
+}
+
+.navbar ul li:hover .sub-navbar-1 ul:hover .sub-navbar-1-1 ul{
+
+ display:block;
+
+}
+
+.navbar ul li:hover .sub-navbar-1 ul li:hover .sub-navbar-1-1 ul li a{
+display:block;
+font-size:100xp;
+color:rgb(255,188,0);
+}
+
+
+/* sub-navbar-1-2----------------------------------------------------------------------------------------------------------*/
+
+
+
+
+.sub-navbar-1-2{
+display:none;}
+
+.navbar ul li:hover .sub-navbar-1 ul li:hover .sub-navbar-1-2{
+display:block;
+background:transparent;
+position:absolute;
+margin-left:80px;
+margin-top:-36px;
+}
+
+
+.navbar ul li:hover .sub-navbar-1 ul li:hover .sub-navbar-1-2 ul li a{
+display:block;
+font-size:100xp;
+color:rgb(255,188,0);
+}
+
+/* sub-navbar-1-3----------------------------------------------------------------------------------------------------------*/
+
+
+.sub-navbar-1-3{
+display:none;}
+
+.navbar ul li:hover .sub-navbar-1 ul li:hover .sub-navbar-1-3{
+display:block;
+background:transparent;
+position:absolute;
+margin-left:80px;
+margin-top:-30px;
+}
+
+
+.navbar ul li:hover .sub-navbar-1 ul li:hover .sub-navbar-1-3 ul li a{
+display:block;
+font-size:100xp;
+color:rgb(255,188,0);
+}
+/* sub-navbar-2------------------------------------------------------------------------------------------------------------*/
+
+
+
+.sub-navbar-2 {
+display:none;
+}
+
+
+.navbar ul li:hover .sub-navbar-2
+{display:block;
+margin-left:-10px;
+
+background:transparent;
+position:absolute;
+margin-left:-47px;
+width:200px;
+}
+
+.navbar ul li:hover .sub-navbar-2 ul
+{display:block;
+margin-left:17px;
+margin-top:30px;
+}
+
+
+.navbar ul li:hover .sub-navbar-2 ul li a 
+{
+color:rgb(255,188,0);
+}
+
+/* sub-navbar-3------------------------------------------------------------------------------------------------------------*/
+
+
+.sub-navbar-3 {
+display:none;
+}
+
+
+.navbar ul li:hover .sub-navbar-3
+{display:block;
+margin-top:10px;
+margin-left:-60px;
+width:200px;
+background:transparent;
+position:absolute;
+}
+
+.navbar ul li:hover .sub-navbar-3 ul
+{display:block;
+margin-left:30px;
+margin-top:20px;}
+
+.navbar ul li:hover .sub-navbar-3 ul li a 
+{
+margin:5px;
+color:rgb(255,188,0);
+}
